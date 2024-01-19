@@ -1,0 +1,29 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.title {
+  font-size: 32px;
+}
+
+.counter {
+  transition: all 0.3s ease;
+  display: block;
+  font-size: 32px;
+  margin: 30px auto;
+}
+
+button {
+  font-size: 18px;
+  margin: 0 10px;
+}
+
+button.incr {
+  background-color: green;
+}
+button.dcr {
+  background-color: red;
+}
